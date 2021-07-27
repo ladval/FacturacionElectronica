@@ -1,3 +1,5 @@
+
+
 Func _JSON_AdditionalProperty($aArray)
 ;~ If Not @Compiled Then _ArrayDisplay($aArray)
 	Local $aCodigoCIIU[3]
@@ -97,10 +99,10 @@ Func _JSON_AdditionalProperty($aArray)
 	$aJefeCuenta[1] = '""'
 	$aJefeCuenta[2] = _JefeCuenta($aArray)
 
-	Local $aFechaLevante[3]
-	$aFechaLevante[0] = "FechaLevante:"
+		Local $aFechaLevante[0] = "FechaLevante:"
 	$aFechaLevante[1] = '""'
 	$aFechaLevante[2] = _FechaLevante($aArray)
+
 
 	Local $aResultArray[16]
 	$aResultArray[0] = $aCodigoCIIU
@@ -190,7 +192,7 @@ Func _FechaLevante($aJsonDataArray)
 							$a = StringMid($aSQL_QueryLevante[1][1], 1, 4)
 							$b = StringMid($aSQL_QueryLevante[1][1], 5, 2)
 							$c = StringMid($aSQL_QueryLevante[1][1], 7, 2)
-							$sFechaLevante = $a & '-' & $b & '-' & $c
+							$sFechaLevante =  $a & '-' & $b & '-' & $c
 							ConsoleWrite("Fecha de levante: " & $sFechaLevante & @CRLF)
 							Return $sFechaLevante
 						EndIf
@@ -199,7 +201,7 @@ Func _FechaLevante($aJsonDataArray)
 			EndIf
 		EndIf
 	Next
-EndFunc   ;==>_FechaLevante
+EndFunc   ;==>_Levante
 
 
 Func _RemoveObsSpaces($sObservaciones_Data)

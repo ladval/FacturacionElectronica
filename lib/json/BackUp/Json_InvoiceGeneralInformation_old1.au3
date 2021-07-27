@@ -10,7 +10,7 @@
 
 
 Func _JSON_InvoiceGralInfo($aArray)
-;~ _ArrayDisplay($aArray, '$aArray')
+	;~ _ArrayDisplay($aArray, '$aArray')
 	Local $iDaysOff = $aArray[19][1]
 	If $iDaysOff < 0 Then $iDaysOff = 0
 	Local $sSelectJSON_Resolutions = "SELECT [InvoiceAuthorizationNumber],[Prefijo],[Fecha_inicio],[Fecha_fin],[NitFacturador],[NumeracionInicia],[NumeracionFin] FROM [BotAbc].[dbo].[tfact_Autorizaciones]"

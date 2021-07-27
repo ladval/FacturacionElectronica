@@ -1,0 +1,295 @@
+{
+"CustomerInformation": {
+"IdentificationType": 31,
+"Identification": "800216499",
+"DV": "1",
+"RegistrationName": "AGOFER S.A.S",
+"CountryCode": "CO",
+"CountryName": "COLOMBIA",
+"SubdivisionCode": "11",
+"SubdivisionName": ":BOGOTA",
+"CityCode": "11001",
+"CityName": ":BOGOTA",
+"AddressLine": "CALLE 12 A No 38 - 40 ZNA IND",
+"Telephone": "7434444",
+"Email":"compras@agofer.com.co;facturacion-noreply@abcrepecev.com",
+"CustomerCode": "",
+"AdditionalAccountID": "1",
+"TaxLevelCodeListName": "48",
+"PostalZone": "",
+"TaxSchemeCode": "01",
+"TaxSchemeName": "IVA",
+"FiscalResponsabilities": "",
+"PartecipationPercent": "",
+"AdditionalCustomer": []
+},
+"InvoiceGeneralInformation": {
+"InvoiceAuthorizationNumber": "18763002723727",
+"PreinvoiceNumber": 17932,
+"InvoiceNumber": "17932",
+"DaysOff": "29",
+"Currency": "COP",
+"ExchangeRate": 0.0,
+"ExchangeRateDate": "",
+"SalesPerson": "",
+"Note": "",
+"ExternalGR": true
+},
+"Delivery": {
+"AddressLine": "CALLE 12 A No 38 - 40 ZNA IND",
+"CountryCode": "",
+"CountryName": "",
+"SubdivisionCode": "",
+"SubdivisionName": "",
+"CityCode": "",
+"CityName": "",
+"ContactPerson": "",
+"DeliveryDate": "2021-07-27T11:09:27",
+"DeliveryCompany": ""
+},
+"AdditionalDocuments": {
+"OrderReference": "",
+"OrderReferenceIssueDate": "",
+"DespatchDocumentReference": "",
+"DespatchDocumentIssueDate": "",
+"ReceiptDocumentReference": "",
+"ReceiptDocumentIssueDate": "",
+"AdditionalDocument": []
+},
+"AdditionalProperty": [
+{
+"Name": "Codigo CIIU",
+"Value" : "5229"
+},
+{
+"Name": "Fax:",
+"Value" : "4222377"
+},
+{
+"Name": "Tipo de Cambio",
+"Value" : "0"
+},
+{
+"Name": "AWL/BL",
+"Value" : "IPAC S.A.           "
+},
+{
+"Name": "SUC",
+"Value" : ""
+},
+{
+"Name": "Peso:",
+"Value" : ""
+},
+{
+"Name": "Piezas:",
+"Value" : "0"
+},
+{
+"Name": "Concepto o Referencia:",
+"Value" : "I-5686"
+},
+{
+"Name": "No",
+"Value" : "649913662218                  "
+},
+{
+"Name": "Valor en letras:",
+"Value" : "UN MILLON ONCE MIL CIENTO SETENTA Y NUEVE PESOS MCTE"
+},
+{
+"Name": "Valor mercancia:",
+"Value" : ""
+},
+{
+"Name": "Observaciones:",
+"Value" : "NAC: 404978"
+},
+{
+"Name": "Vencimiento:",
+"Value" : "2021-08-26"
+},
+{
+"Name": "TRM:",
+"Value" : ""
+},
+{
+"Name": "JefeCuenta:",
+"Value" : "VALDIVIESO SANCHEZ RAFAEL"
+},
+{
+"Name": "FechaLevante:",
+"Value" : "2021-07-26"
+}
+],
+"PaymentSummary": {
+"PaymentType": 1,
+"PaymentMeans": "42",
+"PaymentNote": ""
+},
+"ItemInformation": [
+{
+"ItemReference": "2003",
+"Name": "SERV AGENCIAMIENTO INTEGRAL $280.162.469",
+"Quatity": 1.00,
+"Price": 448260,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 85169,
+"LineTotal": 533429,
+"LineExtensionAmount": 448260,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 448260,"TaxAmount": 85169,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2004",
+"Name": "VR.GASTOS VARIOS",
+"Quatity": 1.00,
+"Price": 82350,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 15647,
+"LineTotal": 97997,
+"LineExtensionAmount": 82350,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 82350,"TaxAmount": 15647,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2009",
+"Name": "VR.ELAB.DECLARAC. IMPORTAC Y/O VALOR X8",
+"Quatity": 1.00,
+"Price": 65400,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 12426,
+"LineTotal": 77826,
+"LineExtensionAmount": 65400,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 65400,"TaxAmount": 12426,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2010",
+"Name": "VR.SERVICIO A LA CARGA",
+"Quatity": 1.00,
+"Price": 274571,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 52168,
+"LineTotal": 326739,
+"LineExtensionAmount": 274571,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 274571,"TaxAmount": 52168,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+}
+],
+"InvoiceTaxTotal": [{
+"Id": "01",
+"TaxEvidenceIndicator": false,
+"TaxableAmount": 870581,
+"TaxAmount": 165410,
+"Percent": 19,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+},
+{
+"Id": "05",
+"TaxEvidenceIndicator": true,
+"TaxableAmount": 870581,
+"TaxAmount": 24812,
+"Percent": 15,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+}
+],
+"InvoiceAllowanceCharge" :[],
+"InvoiceTotalOwn" : {
+"LineExtensionAmount" : 870581,
+"TaxExclusiveAmount" : 870581,
+"TaxAmount" : 165410,
+"PayableAmount" : 1035991
+},
+"InvoiceTotalOthers" : {
+"LineExtensionAmount" : 0,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 0
+},
+"InvoiceTotal": {
+"LineExtensionAmount": 870581,
+"TaxExclusiveAmount": 870581,
+"TaxInclusiveAmount": 1035991,
+"AllowanceTotalAmount": 0,
+"ChargeTotalAmount": 0,
+"PrePaidAmount": 0,
+"PayableAmount": 1035991
+},
+"Documents": []
+
+}

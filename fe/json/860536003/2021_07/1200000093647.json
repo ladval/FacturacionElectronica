@@ -1,0 +1,235 @@
+{
+"CustomerInformation": {
+"IdentificationType": 31,
+"Identification": "800130426",
+"DV": "3",
+"RegistrationName": "G Y J FERRETERIAS S.A.",
+"CountryCode": "CO",
+"CountryName": "COLOMBIA",
+"SubdivisionCode": "11",
+"SubdivisionName": ":BOGOTA",
+"CityCode": "11001",
+"CityName": ":BOGOTA",
+"AddressLine": "CARRERA 65 B No.12 -93",
+"Telephone": "2600783",
+"Email":"importaciones@gyj.com.co;facturacion-noreply@abcrepecev.com",
+"CustomerCode": "",
+"AdditionalAccountID": "1",
+"TaxLevelCodeListName": "48",
+"PostalZone": "",
+"TaxSchemeCode": "01",
+"TaxSchemeName": "IVA",
+"FiscalResponsabilities": "",
+"PartecipationPercent": "",
+"AdditionalCustomer": []
+},
+"InvoiceGeneralInformation": {
+"InvoiceAuthorizationNumber": "18763002723655",
+"PreinvoiceNumber": 93647,
+"InvoiceNumber": "93647",
+"DaysOff": "29",
+"Currency": "COP",
+"ExchangeRate": 0.0,
+"ExchangeRateDate": "",
+"SalesPerson": "",
+"Note": "",
+"ExternalGR": true
+},
+"Delivery": {
+"AddressLine": "CARRERA 65 B No.12 -93",
+"CountryCode": "",
+"CountryName": "",
+"SubdivisionCode": "",
+"SubdivisionName": "",
+"CityCode": "",
+"CityName": "",
+"ContactPerson": "",
+"DeliveryDate": "2021-07-27T11:07:52",
+"DeliveryCompany": ""
+},
+"AdditionalDocuments": {
+"OrderReference": "",
+"OrderReferenceIssueDate": "",
+"DespatchDocumentReference": "",
+"DespatchDocumentIssueDate": "",
+"ReceiptDocumentReference": "",
+"ReceiptDocumentIssueDate": "",
+"AdditionalDocument": []
+},
+"AdditionalProperty": [
+{
+"Name": "Codigo CIIU",
+"Value" : "5229"
+},
+{
+"Name": "Fax:",
+"Value" : "4222377"
+},
+{
+"Name": "Tipo de Cambio",
+"Value" : "0"
+},
+{
+"Name": "AWL/BL",
+"Value" : "POSCO INTERNATI     "
+},
+{
+"Name": "SUC",
+"Value" : ""
+},
+{
+"Name": "Peso:",
+"Value" : ""
+},
+{
+"Name": "Piezas:",
+"Value" : "0"
+},
+{
+"Name": "Concepto o Referencia:",
+"Value" : "F-048/21"
+},
+{
+"Name": "No",
+"Value" : "042613669215                  "
+},
+{
+"Name": "Valor en letras:",
+"Value" : "QUINIENTOS OCHENTA Y SEIS MIL CUATROCIENTOS OCHENTA PESOS MCTE"
+},
+{
+"Name": "Valor mercancia:",
+"Value" : ""
+},
+{
+"Name": "Observaciones:",
+"Value" : "NAC: 405025"
+},
+{
+"Name": "Vencimiento:",
+"Value" : "2021-08-26"
+},
+{
+"Name": "TRM:",
+"Value" : "NAVES"
+},
+{
+"Name": "JefeCuenta:",
+"Value" : "VALDIVIESO SANCHEZ RAFAEL"
+},
+{
+"Name": "FechaLevante:",
+"Value" : "2021-07-26"
+}
+],
+"PaymentSummary": {
+"PaymentType": 1,
+"PaymentMeans": "42",
+"PaymentNote": ""
+},
+"ItemInformation": [
+{
+"ItemReference": "2003",
+"Name": "SERV AGENCIAMIENTO INTEGRAL $1.229.550.503",
+"Quatity": 1.00,
+"Price": 454934,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 86437,
+"LineTotal": 541371,
+"LineExtensionAmount": 454934,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 454934,"TaxAmount": 86437,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2004",
+"Name": "VR.GASTOS VARIOS",
+"Quatity": 1.00,
+"Price": 50000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 9500,
+"LineTotal": 59500,
+"LineExtensionAmount": 50000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 50000,"TaxAmount": 9500,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+}
+],
+"InvoiceTaxTotal": [{
+"Id": "01",
+"TaxEvidenceIndicator": false,
+"TaxableAmount": 504934,
+"TaxAmount": 95937,
+"Percent": 19,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+},
+{
+"Id": "05",
+"TaxEvidenceIndicator": true,
+"TaxableAmount": 504934,
+"TaxAmount": 14391,
+"Percent": 15,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+}
+],
+"InvoiceAllowanceCharge" :[],
+"InvoiceTotalOwn" : {
+"LineExtensionAmount" : 504934,
+"TaxExclusiveAmount" : 504934,
+"TaxAmount" : 95937,
+"PayableAmount" : 600871
+},
+"InvoiceTotalOthers" : {
+"LineExtensionAmount" : 0,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 0
+},
+"InvoiceTotal": {
+"LineExtensionAmount": 504934,
+"TaxExclusiveAmount": 504934,
+"TaxInclusiveAmount": 600871,
+"AllowanceTotalAmount": 0,
+"ChargeTotalAmount": 0,
+"PrePaidAmount": 0,
+"PayableAmount": 600871
+},
+"Documents": []
+
+}

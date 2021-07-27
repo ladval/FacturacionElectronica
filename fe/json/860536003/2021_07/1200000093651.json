@@ -1,0 +1,256 @@
+{
+"CustomerInformation": {
+"IdentificationType": 31,
+"Identification": "860067998",
+"DV": "3",
+"RegistrationName": "FERRETERIA MULTI-ALAMBRES LTDA",
+"CountryCode": "CO",
+"CountryName": "COLOMBIA",
+"SubdivisionCode": "11",
+"SubdivisionName": ":BOGOTA",
+"CityCode": "11001",
+"CityName": ":BOGOTA",
+"AddressLine": "AVDA CRA 68 N-19-52 OFC.301",
+"Telephone": "4470007",
+"Email":"analistafinanciero1@multi-alambres.com;facturacion-noreply@abcrepecev.com",
+"CustomerCode": "",
+"AdditionalAccountID": "1",
+"TaxLevelCodeListName": "48",
+"PostalZone": "",
+"TaxSchemeCode": "01",
+"TaxSchemeName": "IVA",
+"FiscalResponsabilities": "",
+"PartecipationPercent": "",
+"AdditionalCustomer": []
+},
+"InvoiceGeneralInformation": {
+"InvoiceAuthorizationNumber": "18763002723655",
+"PreinvoiceNumber": 93651,
+"InvoiceNumber": "93651",
+"DaysOff": "29",
+"Currency": "COP",
+"ExchangeRate": 0.0,
+"ExchangeRateDate": "",
+"SalesPerson": "",
+"Note": "",
+"ExternalGR": true
+},
+"Delivery": {
+"AddressLine": "AVDA CRA 68 N-19-52 OFC.301",
+"CountryCode": "",
+"CountryName": "",
+"SubdivisionCode": "",
+"SubdivisionName": "",
+"CityCode": "",
+"CityName": "",
+"ContactPerson": "",
+"DeliveryDate": "2021-07-27T11:08:40",
+"DeliveryCompany": ""
+},
+"AdditionalDocuments": {
+"OrderReference": "",
+"OrderReferenceIssueDate": "",
+"DespatchDocumentReference": "",
+"DespatchDocumentIssueDate": "",
+"ReceiptDocumentReference": "",
+"ReceiptDocumentIssueDate": "",
+"AdditionalDocument": []
+},
+"AdditionalProperty": [
+{
+"Name": "Codigo CIIU",
+"Value" : "5229"
+},
+{
+"Name": "Fax:",
+"Value" : "4222377"
+},
+{
+"Name": "Tipo de Cambio",
+"Value" : "0"
+},
+{
+"Name": "AWL/BL",
+"Value" : "SAMSUNG C AND T     "
+},
+{
+"Name": "SUC",
+"Value" : ""
+},
+{
+"Name": "Peso:",
+"Value" : ""
+},
+{
+"Name": "Piezas:",
+"Value" : "0"
+},
+{
+"Name": "Concepto o Referencia:",
+"Value" : "533986V01 TANCHOU AR"
+},
+{
+"Name": "No",
+"Value" : "799811900215                  "
+},
+{
+"Name": "Valor en letras:",
+"Value" : "CINCO MILLONES DOSCIENTOS DIECINUEVE MIL SEISCIENTOS OCHENTA Y SEIS PESOS MCTE"
+},
+{
+"Name": "Valor mercancia:",
+"Value" : ""
+},
+{
+"Name": "Observaciones:",
+"Value" : "NAC: 403183"
+},
+{
+"Name": "Vencimiento:",
+"Value" : "2021-08-26"
+},
+{
+"Name": "TRM:",
+"Value" : ""
+},
+{
+"Name": "JefeCuenta:",
+"Value" : "VALDIVIESO SANCHEZ RAFAEL"
+},
+{
+"Name": "FechaLevante:",
+"Value" : "2021-07-26"
+}
+],
+"PaymentSummary": {
+"PaymentType": 1,
+"PaymentMeans": "42",
+"PaymentNote": ""
+},
+"ItemInformation": [
+{
+"ItemReference": "2003",
+"Name": "SERV AGENCIAMIENTO INTEGRAL $4.287.290.708",
+"Quatity": 1.00,
+"Price": 4287291,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 814585,
+"LineTotal": 5101876,
+"LineExtensionAmount": 4287291,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 4287291,"TaxAmount": 814585,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2004",
+"Name": "VR.GASTOS VARIOS",
+"Quatity": 1.00,
+"Price": 75000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 14250,
+"LineTotal": 89250,
+"LineExtensionAmount": 75000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 75000,"TaxAmount": 14250,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2009",
+"Name": "VR.ELAB.DECLARAC. IMPORTAC Y/O VALOR X2",
+"Quatity": 1.00,
+"Price": 24000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 4560,
+"LineTotal": 28560,
+"LineExtensionAmount": 24000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 24000,"TaxAmount": 4560,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+}
+],
+"InvoiceTaxTotal": [{
+"Id": "01",
+"TaxEvidenceIndicator": false,
+"TaxableAmount": 4386291,
+"TaxAmount": 833395,
+"Percent": 19,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+}
+],
+"InvoiceAllowanceCharge" :[],
+"InvoiceTotalOwn" : {
+"LineExtensionAmount" : 4386291,
+"TaxExclusiveAmount" : 4386291,
+"TaxAmount" : 833395,
+"PayableAmount" : 5219686
+},
+"InvoiceTotalOthers" : {
+"LineExtensionAmount" : 0,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 0
+},
+"InvoiceTotal": {
+"LineExtensionAmount": 4386291,
+"TaxExclusiveAmount": 4386291,
+"TaxInclusiveAmount": 5219686,
+"AllowanceTotalAmount": 0,
+"ChargeTotalAmount": 0,
+"PrePaidAmount": 0,
+"PayableAmount": 5219686
+},
+"Documents": []
+
+}

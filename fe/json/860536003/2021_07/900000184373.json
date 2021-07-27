@@ -1,0 +1,247 @@
+{
+"CustomerInformation": {
+"IdentificationType": 31,
+"Identification": "800033159",
+"DV": "6",
+"RegistrationName": "DURMAN COLOMBIA S.A.S",
+"CountryCode": "CO",
+"CountryName": "COLOMBIA",
+"SubdivisionCode": "25",
+"SubdivisionName": ":CUNDINAMARCA",
+"CityCode": "25430",
+"CityName": ":MADRID",
+"AddressLine": "KM 27 VIA FONTIBON FACATATIVA LO ALPES",
+"Telephone": "8200200",
+"Email":"recepcionfacturasco@aliaxis-la.com;facturacion-noreply@abcrepecev.com",
+"CustomerCode": "",
+"AdditionalAccountID": "1",
+"TaxLevelCodeListName": "48",
+"PostalZone": "",
+"TaxSchemeCode": "01",
+"TaxSchemeName": "IVA",
+"FiscalResponsabilities": "",
+"PartecipationPercent": "",
+"AdditionalCustomer": []
+},
+"InvoiceGeneralInformation": {
+"InvoiceAuthorizationNumber": "18764004067561",
+"PreinvoiceNumber": 184373,
+"InvoiceNumber": "184373",
+"DaysOff": "29",
+"Currency": "COP",
+"ExchangeRate": 0.0,
+"ExchangeRateDate": "",
+"SalesPerson": "",
+"Note": "",
+"ExternalGR": true
+},
+"Delivery": {
+"AddressLine": "KM 27 VIA FONTIBON FACATATIVA LO ALPES",
+"CountryCode": "",
+"CountryName": "",
+"SubdivisionCode": "",
+"SubdivisionName": "",
+"CityCode": "",
+"CityName": "",
+"ContactPerson": "",
+"DeliveryDate": "2021-07-27T11:06:07",
+"DeliveryCompany": ""
+},
+"AdditionalDocuments": {
+"OrderReference": "",
+"OrderReferenceIssueDate": "",
+"DespatchDocumentReference": "",
+"DespatchDocumentIssueDate": "",
+"ReceiptDocumentReference": "",
+"ReceiptDocumentIssueDate": "",
+"AdditionalDocument": []
+},
+"AdditionalProperty": [
+{
+"Name": "Codigo CIIU",
+"Value" : "5229"
+},
+{
+"Name": "Fax:",
+"Value" : "4222377"
+},
+{
+"Name": "Tipo de Cambio",
+"Value" : "0"
+},
+{
+"Name": "AWL/BL",
+"Value" : "TIPONET LTD         "
+},
+{
+"Name": "SUC",
+"Value" : ""
+},
+{
+"Name": "Peso:",
+"Value" : ""
+},
+{
+"Name": "Piezas:",
+"Value" : "0"
+},
+{
+"Name": "Concepto o Referencia:",
+"Value" : "TT-102-21"
+},
+{
+"Name": "No",
+"Value" : "315913171211                  "
+},
+{
+"Name": "Valor en letras:",
+"Value" : "SEISCIENTOS UN MIL DOSCIENTOS CUARENTA Y UN PESOS MCTE"
+},
+{
+"Name": "Valor mercancia:",
+"Value" : ""
+},
+{
+"Name": "Observaciones:",
+"Value" : "NAC: 404382"
+},
+{
+"Name": "Vencimiento:",
+"Value" : "2021-08-26"
+},
+{
+"Name": "TRM:",
+"Value" : ""
+},
+{
+"Name": "JefeCuenta:",
+"Value" : "VALDIVIESO SANCHEZ RAFAEL"
+},
+{
+"Name": "FechaLevante:",
+"Value" : "2021-07-22"
+}
+],
+"PaymentSummary": {
+"PaymentType": 1,
+"PaymentMeans": "42",
+"PaymentNote": ""
+},
+"ItemInformation": [
+{
+"ItemReference": "1005",
+"Name": "TAESCOL FC 35402 LIBERACION GUIA Y/O BL",
+"Quatity": 1.00,
+"Price": 255852,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 255852,
+"LineExtensionAmount": 255852,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1004",
+"Name": "ROLDAN FC F001-2631 ALMACENAMIENTO",
+"Quatity": 1.00,
+"Price": 342994,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 342994,
+"LineExtensionAmount": 342994,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1030",
+"Name": "VR.4x1000 Ley 863 dic.29/2003 S$598.846",
+"Quatity": 1.00,
+"Price": 2395,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 2395,
+"LineExtensionAmount": 2395,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+}
+],
+"InvoiceTaxTotal": [],
+"InvoiceAllowanceCharge" :[],
+"InvoiceTotalOwn" : {
+"LineExtensionAmount" : 0,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 0
+},
+"InvoiceTotalOthers" : {
+"LineExtensionAmount" : 601241,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 601241
+},
+"InvoiceTotal": {
+"LineExtensionAmount": 601241,
+"TaxExclusiveAmount": 0,
+"TaxInclusiveAmount": 601241,
+"AllowanceTotalAmount": 0,
+"ChargeTotalAmount": 0,
+"PrePaidAmount": 0,
+"PayableAmount": 601241
+},
+"Documents": []
+
+}

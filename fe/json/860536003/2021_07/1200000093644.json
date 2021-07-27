@@ -1,0 +1,466 @@
+{
+"CustomerInformation": {
+"IdentificationType": 31,
+"Identification": "900941092",
+"DV": "1",
+"RegistrationName": "INTERPHARMA DE COLOMBIA S.A.S",
+"CountryCode": "CO",
+"CountryName": "COLOMBIA",
+"SubdivisionCode": "11",
+"SubdivisionName": ":BOGOTA",
+"CityCode": "11001",
+"CityName": ":BOGOTA",
+"AddressLine": "AC 24  95  12  BG 13",
+"Telephone": "4284290",
+"Email":"importaciones@comercialquimica.com.co;facturacion-noreply@abcrepecev.com",
+"CustomerCode": "",
+"AdditionalAccountID": "1",
+"TaxLevelCodeListName": "48",
+"PostalZone": "",
+"TaxSchemeCode": "01",
+"TaxSchemeName": "IVA",
+"FiscalResponsabilities": "",
+"PartecipationPercent": "",
+"AdditionalCustomer": []
+},
+"InvoiceGeneralInformation": {
+"InvoiceAuthorizationNumber": "18763002723655",
+"PreinvoiceNumber": 93644,
+"InvoiceNumber": "93644",
+"DaysOff": "14",
+"Currency": "COP",
+"ExchangeRate": 0.0,
+"ExchangeRateDate": "",
+"SalesPerson": "",
+"Note": "",
+"ExternalGR": true
+},
+"Delivery": {
+"AddressLine": "AC 24  95  12  BG 13",
+"CountryCode": "",
+"CountryName": "",
+"SubdivisionCode": "",
+"SubdivisionName": "",
+"CityCode": "",
+"CityName": "",
+"ContactPerson": "",
+"DeliveryDate": "2021-07-27T11:07:19",
+"DeliveryCompany": ""
+},
+"AdditionalDocuments": {
+"OrderReference": "",
+"OrderReferenceIssueDate": "",
+"DespatchDocumentReference": "",
+"DespatchDocumentIssueDate": "",
+"ReceiptDocumentReference": "",
+"ReceiptDocumentIssueDate": "",
+"AdditionalDocument": []
+},
+"AdditionalProperty": [
+{
+"Name": "Codigo CIIU",
+"Value" : "5229"
+},
+{
+"Name": "Fax:",
+"Value" : "4222377"
+},
+{
+"Name": "Tipo de Cambio",
+"Value" : "0"
+},
+{
+"Name": "AWL/BL",
+"Value" : "BIESTERFELD INT     "
+},
+{
+"Name": "SUC",
+"Value" : ""
+},
+{
+"Name": "Peso:",
+"Value" : ""
+},
+{
+"Name": "Piezas:",
+"Value" : "0"
+},
+{
+"Name": "Concepto o Referencia:",
+"Value" : "IMP 197"
+},
+{
+"Name": "No",
+"Value" : "109212331215                  "
+},
+{
+"Name": "Valor en letras:",
+"Value" : "DOS MILLONES CUATROCIENTOS TREINTA Y NUEVE MIL CIENTO NOVENTA Y TRES PESOS MCTE"
+},
+{
+"Name": "Valor mercancia:",
+"Value" : ""
+},
+{
+"Name": "Observaciones:",
+"Value" : "NAC: 404890"
+},
+{
+"Name": "Vencimiento:",
+"Value" : "2021-08-11"
+},
+{
+"Name": "TRM:",
+"Value" : ""
+},
+{
+"Name": "JefeCuenta:",
+"Value" : "RESTREPO AMADOR JOHN ALEXANDER"
+},
+{
+"Name": "FechaLevante:",
+"Value" : "2021-07-21"
+}
+],
+"PaymentSummary": {
+"PaymentType": 1,
+"PaymentMeans": "42",
+"PaymentNote": ""
+},
+"ItemInformation": [
+{
+"ItemReference": "1016",
+"Name": "1051215697/     LICENCIA  IMPORTACION  VUCE",
+"Quatity": 1.00,
+"Price": 60000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 60000,
+"LineExtensionAmount": 60000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1023",
+"Name": "INVIMA 1052294118",
+"Quatity": 1.00,
+"Price": 65356,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 65356,
+"LineExtensionAmount": 65356,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1003",
+"Name": "TCBUEN 11960525/USO INSTALACIONES",
+"Quatity": 1.00,
+"Price": 687507,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 687507,
+"LineExtensionAmount": 687507,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1004",
+"Name": "TCBUEN 11960526/ALMACENAMIENTO",
+"Quatity": 1.00,
+"Price": 749994,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 749994,
+"LineExtensionAmount": 749994,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1002",
+"Name": "IMPUESTO DECLARACION ADUANAS - IVA",
+"Quatity": 1.00,
+"Price": 12201000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 12201000,
+"LineExtensionAmount": 12201000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1030",
+"Name": "VR.4x1000 Ley 863 dic.29/2003 S$13.763.857",
+"Quatity": 1.00,
+"Price": 55055,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 55055,
+"LineExtensionAmount": 55055,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2003",
+"Name": "SERV AGENCIAMIENTO INTEGRAL $180.144.671",
+"Quatity": 1.00,
+"Price": 450362,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 85569,
+"LineTotal": 535931,
+"LineExtensionAmount": 450362,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 450362,"TaxAmount": 85569,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2004",
+"Name": "VR.GASTOS VARIOS",
+"Quatity": 1.00,
+"Price": 85000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 16150,
+"LineTotal": 101150,
+"LineExtensionAmount": 85000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 85000,"TaxAmount": 16150,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2009",
+"Name": "VR.ELAB.DECLARAC. IMPORTAC Y/O VALOR*6",
+"Quatity": 1.00,
+"Price": 90000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 17100,
+"LineTotal": 107100,
+"LineExtensionAmount": 90000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 90000,"TaxAmount": 17100,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2005",
+"Name": "VR.ELAB.REGISTROS Y/O LICENCIAS IMPORTACION",
+"Quatity": 1.00,
+"Price": 90000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 17100,
+"LineTotal": 107100,
+"LineExtensionAmount": 90000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 90000,"TaxAmount": 17100,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+}
+],
+"InvoiceTaxTotal": [{
+"Id": "01",
+"TaxEvidenceIndicator": false,
+"TaxableAmount": 715362,
+"TaxAmount": 135919,
+"Percent": 19,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+}
+],
+"InvoiceAllowanceCharge" :[],
+"InvoiceTotalOwn" : {
+"LineExtensionAmount" : 715362,
+"TaxExclusiveAmount" : 715362,
+"TaxAmount" : 135919,
+"PayableAmount" : 851281
+},
+"InvoiceTotalOthers" : {
+"LineExtensionAmount" : 13818912,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 13818912
+},
+"InvoiceTotal": {
+"LineExtensionAmount": 14534274,
+"TaxExclusiveAmount": 715362,
+"TaxInclusiveAmount": 14670193,
+"AllowanceTotalAmount": 0,
+"ChargeTotalAmount": 0,
+"PrePaidAmount": 12231000,
+"PayableAmount": 2439193
+},
+"Documents": []
+
+}

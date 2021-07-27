@@ -46,7 +46,6 @@ Func _JSON_AdditionalProperty($aArray)
 	$aValorMercancia[1] = '""'
 	$aValorMercancia[2] = $aArray[93][1]
 
-
 	Local $sObservaciones_Data = StringReplace($aArray[111][1], "'", "?")
 	$sObservaciones_Data = StringReplace($sObservaciones_Data, '"', "")
 	$sObservaciones_Data = StringReplace($sObservaciones_Data, "|", "?")
@@ -91,16 +90,15 @@ Func _JSON_AdditionalProperty($aArray)
 	$aTRM[1] = '""'
 	$aTRM[2] = $aArray[91][1]
 
-
 	Local $aJefeCuenta[3]
 	$aJefeCuenta[0] = "JefeCuenta:"
 	$aJefeCuenta[1] = '""'
 	$aJefeCuenta[2] = _JefeCuenta($aArray)
 
 	Local $aFechaLevante[3]
-	$aFechaLevante[0] = "FechaLevante:"
-	$aFechaLevante[1] = '""'
-	$aFechaLevante[2] = _FechaLevante($aArray)
+	$aJefeCuenta[0] = "FechaLevante:"
+	$aJefeCuenta[1] = '""'
+	$aJefeCuenta[2] = _FechaLevante($aObservaciones)
 
 	Local $aResultArray[16]
 	$aResultArray[0] = $aCodigoCIIU
@@ -123,6 +121,7 @@ Func _JSON_AdditionalProperty($aArray)
 EndFunc   ;==>_JSON_AdditionalProperty
 
 Func _JefeCuenta($aJsonDataArray)
+	_ArrayDisplay($aJsonDataArray, 'JesfeCuenta')
 	Local $sObservaciones = $aJsonDataArray[111][1]
 	Local $sSplitter = "/" ;CARACTER SEPARADOR DE LAS NACIONALIZACIONES EN EL CAMPO DE OBSERVACIONES
 	If StringInStr($sObservaciones, "'") = 0 Then
@@ -146,10 +145,21 @@ Func _JefeCuenta($aJsonDataArray)
 				For $j = 0 To UBound($aNacionalizacionesLista) - 1 Step +1
 					Local $sNacionalizacionesLista = StringStripWS($aNacionalizacionesLista[$j], 8)
 					If StringLen($sNacionalizacionesLista) > 0 Then
-						Local $sSQL_QueryJefeCuenta = "[Repecev2005].[dbo].SPR_GET_JEFE_NAC " & $sNacionalizacionesLista
+						Local $sSQL_QueryJefeCuenta = "EXEC  [Repecev2005].[dbo].Nac_levante_Facturacion " & $sNacionalizacionesLista
+						ConsoleWrite($sSQL_QueryJefeCuenta & @CRLF)
 						Local $aSQL_QueryJefeCuenta = _ModuloSQL_SQL_SELECT($sSQL_QueryJefeCuenta)
 						If UBound($aSQL_QueryJefeCuenta) > 1 Then
-							ConsoleWrite("Jefe de cuenta: " & $aSQL_QueryJefeCuenta[1][0] & @CRLF)
+
+							$a = StringMid($aSQL_QueryJefeCuenta[1][1],1,4)
+							$b = StringMid($aSQL_QueryJefeCuenta[1][1],5,2)
+							$c = StringMid($aSQL_QueryJefeCuenta[1][1],7,2)
+
+ConsoleWrite($a&@CRLF)
+ConsoleWrite($b&@CRLF)
+ConsoleWrite($c&@CRLF)
+
+							ConsoleWrite("Levante: " & $aSQL_QueryJefeCuenta[1][1] & @CRLF)
+							Exit
 							Return $aSQL_QueryJefeCuenta[1][0]
 						EndIf
 					EndIf
@@ -157,49 +167,8 @@ Func _JefeCuenta($aJsonDataArray)
 			EndIf
 		EndIf
 	Next
+	Exit
 EndFunc   ;==>_JefeCuenta
-
-Func _FechaLevante($aJsonDataArray)
-	Local $sObservaciones = $aJsonDataArray[111][1]
-	Local $sSplitter = "/" ;CARACTER SEPARADOR DE LAS NACIONALIZACIONES EN EL CAMPO DE OBSERVACIONES
-	If StringInStr($sObservaciones, "'") = 0 Then
-		Local $aObservaciones = [$sObservaciones]
-	Else
-		Local $aObservaciones = StringSplit($sObservaciones, "'", 3)
-	EndIf
-	For $i = 0 To UBound($aObservaciones) - 1 Step +1
-		Local $sObservacionesLinea = StringStripWS($aObservaciones[$i], 8)
-		If StringInStr($sObservacionesLinea, "NAC:") Then
-			Local $aNacionalizaciones = ""
-			Local $aNacionalizaciones1 = _StringBetween(StringStripWS($sObservacionesLinea, 8), "NAC:", "|")
-			If IsArray($aNacionalizaciones1) Then
-				Local $aNacionalizaciones = $aNacionalizaciones1
-			Else
-				Local $aNacionalizaciones[1] = [StringRegExpReplace($sObservacionesLinea, "[^[:digit:]]", "")]
-			EndIf
-			If IsArray($aNacionalizaciones) Then
-				Local $sNacionalizaciones = $aNacionalizaciones[0]
-				Local $aNacionalizacionesLista = StringSplit($sNacionalizaciones, $sSplitter, 3)
-				For $j = 0 To UBound($aNacionalizacionesLista) - 1 Step +1
-					Local $sNacionalizacionesLista = StringStripWS($aNacionalizacionesLista[$j], 8)
-					If StringLen($sNacionalizacionesLista) > 0 Then
-						Local $sSQL_QueryLevante = "EXEC  [Repecev2005].[dbo].Nac_levante_Facturacion " & $sNacionalizacionesLista
-						ConsoleWrite($sSQL_QueryLevante & @CRLF)
-						Local $aSQL_QueryLevante = _ModuloSQL_SQL_SELECT($sSQL_QueryLevante)
-						If IsArray($aSQL_QueryLevante) Then
-							$a = StringMid($aSQL_QueryLevante[1][1], 1, 4)
-							$b = StringMid($aSQL_QueryLevante[1][1], 5, 2)
-							$c = StringMid($aSQL_QueryLevante[1][1], 7, 2)
-							$sFechaLevante = $a & '-' & $b & '-' & $c
-							ConsoleWrite("Fecha de levante: " & $sFechaLevante & @CRLF)
-							Return $sFechaLevante
-						EndIf
-					EndIf
-				Next
-			EndIf
-		EndIf
-	Next
-EndFunc   ;==>_FechaLevante
 
 
 Func _RemoveObsSpaces($sObservaciones_Data)
@@ -273,3 +242,36 @@ Func _Vencimiento($sFecha)
 	EndIf
 EndFunc   ;==>_Vencimiento
 
+
+
+
+Func _FechaLevante($sObservaciones)
+	Local $sSplitter = "/" ;CARACTER SEPARADOR DE LAS NACIONALIZACIONES EN EL CAMPO DE OBSERVACIONES
+	If StringInStr($sObservaciones, "'") = 0 Then
+		Local $aObservaciones = [$sObservaciones]
+	Else
+		Local $aObservaciones = StringSplit($sObservaciones, "'", 3)
+	EndIf
+	For $i = 0 To UBound($aObservaciones) - 1 Step +1
+		Local $sObservacionesLinea = StringStripWS($aObservaciones[$i], 8)
+		If StringInStr($sObservacionesLinea, "NAC:") Then
+			ConsoleWrite("  Ejecutando actualizacion de nacionalizaciones" & @CRLF)
+			Local $aNacionalizaciones = ""
+			Local $aNacionalizaciones1 = _StringBetween(StringStripWS($sObservacionesLinea, 8), "NAC:", "|")
+			If IsArray($aNacionalizaciones1) Then
+				Local $aNacionalizaciones = $aNacionalizaciones1
+			Else
+				Local $aNacionalizaciones[1] = [StringRegExpReplace($sObservacionesLinea, "[^[:digit:]]", "")]
+			EndIf
+			If IsArray($aNacionalizaciones) Then
+				Local $sNacionalizaciones = $aNacionalizaciones[0]
+				Local $aNacionalizacionesLista = StringSplit($sNacionalizaciones, $sSplitter, 3)
+				Local $sFechaLevanteQuery = "EXEC Nac_levante_Facturacion " & $aNacionalizacionesLista[0]
+				Local $aFechaLevanteQuery = _ModuloSQL_SQL_EXEC($sFechaLevanteQuery)
+				_ArrayDisplay($aFechaLevanteQuery)
+			Else
+				ConsoleWrite("  Formato inválido de nacionalizaciones / Campo vacío" & @CRLF)
+			EndIf
+		EndIf
+	Next
+EndFunc   ;==>_FechaLevante

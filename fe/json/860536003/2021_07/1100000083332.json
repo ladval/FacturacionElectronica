@@ -1,0 +1,295 @@
+{
+"CustomerInformation": {
+"IdentificationType": 31,
+"Identification": "860002459",
+"DV": "6",
+"RegistrationName": "CONSORCIO METALURGICO NACIONAL S.A.S.",
+"CountryCode": "CO",
+"CountryName": "COLOMBIA",
+"SubdivisionCode": "11",
+"SubdivisionName": ":BOGOTA",
+"CityCode": "11001",
+"CityName": ":BOGOTA",
+"AddressLine": "CALLE 45 A SUR 60-57",
+"Telephone": "7280211",
+"Email":"recepcion_fe@tuboscolmena.com;facturacion-noreply@abcrepecev.com",
+"CustomerCode": "",
+"AdditionalAccountID": "1",
+"TaxLevelCodeListName": "48",
+"PostalZone": "",
+"TaxSchemeCode": "01",
+"TaxSchemeName": "IVA",
+"FiscalResponsabilities": "",
+"PartecipationPercent": "",
+"AdditionalCustomer": []
+},
+"InvoiceGeneralInformation": {
+"InvoiceAuthorizationNumber": "18763002723711",
+"PreinvoiceNumber": 83332,
+"InvoiceNumber": "83332",
+"DaysOff": "29",
+"Currency": "COP",
+"ExchangeRate": 0.0,
+"ExchangeRateDate": "",
+"SalesPerson": "",
+"Note": "",
+"ExternalGR": true
+},
+"Delivery": {
+"AddressLine": "CALLE 45 A SUR 60-57",
+"CountryCode": "",
+"CountryName": "",
+"SubdivisionCode": "",
+"SubdivisionName": "",
+"CityCode": "",
+"CityName": "",
+"ContactPerson": "",
+"DeliveryDate": "2021-07-27T11:06:53",
+"DeliveryCompany": ""
+},
+"AdditionalDocuments": {
+"OrderReference": "",
+"OrderReferenceIssueDate": "",
+"DespatchDocumentReference": "",
+"DespatchDocumentIssueDate": "",
+"ReceiptDocumentReference": "",
+"ReceiptDocumentIssueDate": "",
+"AdditionalDocument": []
+},
+"AdditionalProperty": [
+{
+"Name": "Codigo CIIU",
+"Value" : "5229"
+},
+{
+"Name": "Fax:",
+"Value" : "4222377"
+},
+{
+"Name": "Tipo de Cambio",
+"Value" : "0"
+},
+{
+"Name": "AWL/BL",
+"Value" : "CELSA               "
+},
+{
+"Name": "SUC",
+"Value" : ""
+},
+{
+"Name": "Peso:",
+"Value" : ""
+},
+{
+"Name": "Piezas:",
+"Value" : "0"
+},
+{
+"Name": "Concepto o Referencia:",
+"Value" : "C-058/21"
+},
+{
+"Name": "No",
+"Value" : "245913049213                  "
+},
+{
+"Name": "Valor en letras:",
+"Value" : "QUINIENTOS SETENTA Y SEIS MIL CIENTO CINCUENTA Y CUATRO PESOS MCTE"
+},
+{
+"Name": "Valor mercancia:",
+"Value" : ""
+},
+{
+"Name": "Observaciones:",
+"Value" : "NAC: 405180"
+},
+{
+"Name": "Vencimiento:",
+"Value" : "2021-08-26"
+},
+{
+"Name": "TRM:",
+"Value" : "SEAPORT"
+},
+{
+"Name": "JefeCuenta:",
+"Value" : "VALDIVIESO SANCHEZ RAFAEL"
+},
+{
+"Name": "FechaLevante:",
+"Value" : "2021-07-23"
+}
+],
+"PaymentSummary": {
+"PaymentType": 1,
+"PaymentMeans": "42",
+"PaymentNote": ""
+},
+"ItemInformation": [
+{
+"ItemReference": "1016",
+"Name": "SEAPORT F-122 MANEJO DE DCTOS",
+"Quatity": 1.00,
+"Price": 296209,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 296209,
+"LineExtensionAmount": 296209,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1030",
+"Name": "VR.4x1000 Ley 863 dic.29/2003 S$296.209",
+"Quatity": 1.00,
+"Price": 1185,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 1185,
+"LineExtensionAmount": 1185,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2003",
+"Name": "SERV AGENCIAMIENTO INTEGRAL $191.921.896",
+"Quatity": 1.00,
+"Price": 190000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 36100,
+"LineTotal": 226100,
+"LineExtensionAmount": 190000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 190000,"TaxAmount": 36100,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "2004",
+"Name": "VR.GASTOS VARIOS",
+"Quatity": 1.00,
+"Price": 50000,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 9500,
+"LineTotal": 59500,
+"LineExtensionAmount": 50000,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 50000,"TaxAmount": 9500,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+}
+],
+"InvoiceTaxTotal": [{
+"Id": "01",
+"TaxEvidenceIndicator": false,
+"TaxableAmount": 240000,
+"TaxAmount": 45600,
+"Percent": 19,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+},
+{
+"Id": "05",
+"TaxEvidenceIndicator": true,
+"TaxableAmount": 240000,
+"TaxAmount": 6840,
+"Percent": 15,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+}
+],
+"InvoiceAllowanceCharge" :[],
+"InvoiceTotalOwn" : {
+"LineExtensionAmount" : 240000,
+"TaxExclusiveAmount" : 240000,
+"TaxAmount" : 45600,
+"PayableAmount" : 285600
+},
+"InvoiceTotalOthers" : {
+"LineExtensionAmount" : 297394,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 297394
+},
+"InvoiceTotal": {
+"LineExtensionAmount": 537394,
+"TaxExclusiveAmount": 240000,
+"TaxInclusiveAmount": 582994,
+"AllowanceTotalAmount": 0,
+"ChargeTotalAmount": 0,
+"PrePaidAmount": 0,
+"PayableAmount": 582994
+},
+"Documents": []
+
+}
