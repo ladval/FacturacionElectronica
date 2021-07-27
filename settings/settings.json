@@ -1,0 +1,41 @@
+{
+  "Gnral_Variables": {
+    "json_sample": 0,
+    "array_sample": 0,
+    "allow_sql_data_insertion": 1,
+    "authorization_testing": 0,
+    "authorization_number_testing": 18760000001,
+    "test_email": "jladino@abcrepecev.com"
+  },
+  "conn": {
+    "db_conn": "produccion",
+    "produccion": [
+        {
+            "Instancia": "172.16.10.16\\DBABC21"
+        },
+        {
+            "BD": "BotAbc"
+        },
+        {
+            "Usuario": "Operativo"
+        },
+        {
+            "Clave": "Repecev2019*"
+        }
+    ],
+    "piloto": [
+        {
+            "Instancia": "172.16.10.85\\dbabc21H"
+        },
+        {
+            "BD": "BotAbc"
+        },
+        {
+            "Usuario": "BotRepecev2005"
+        },
+        {
+            "Clave": "BotRepecev2005"
+        }
+    ]
+}
+}
