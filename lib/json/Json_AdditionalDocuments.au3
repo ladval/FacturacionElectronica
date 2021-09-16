@@ -80,10 +80,6 @@ Func _JSON_AdditionalDocuments($aArray)
 			$aJsonData_AdditionalDocuments = _ArrayExtract($aJsonData_AdditionalDocuments, 0, 8)
 	EndSwitch
 
-;~ _ArrayDisplay($aJsonData_AdditionalDocuments)
-;~ Exit
-
-
 	Return $aJsonData_AdditionalDocuments
 EndFunc   ;==>_JSON_AdditionalDocuments
 

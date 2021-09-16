@@ -24,7 +24,6 @@ Func _JSON_PaymentSummary($aArray)
 	$aResultArray[3] = $aPaymentSummary_PaymentNote
 	$aJSON_CustomerInfo_2DArray = _JSON_1Darray($aResultArray)
 	$aResultArray = _JSON_JsonData($aJSON_CustomerInfo_2DArray)
-;~ _ArrayDisplay($aResultArray)
 	Return $aResultArray
 EndFunc   ;==>_JSON_PaymentSummary
 

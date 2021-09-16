@@ -1,4 +1,5 @@
 Func _JSON_AdditionalProperty($aArray)
+;~ If Not @Compiled Then _ArrayDisplay($aArray)
 	Local $aCodigoCIIU[3]
 	$aCodigoCIIU[0] = "Codigo CIIU"
 	$aCodigoCIIU[1] = '""'
@@ -34,7 +35,7 @@ Func _JSON_AdditionalProperty($aArray)
 	Local $aNo[3]
 	$aNo[0] = "No"
 	$aNo[1] = '""'
-	$aNo[2] = StringStripWS($aArray[82][1], 8)
+	$aNo[2] = StringStripWS($aArray[82][1],8) 
 	Local $aValorLetras[3]
 	$aValorLetras[0] = "Valor en letras:"
 	$aValorLetras[1] = '""'
@@ -100,24 +101,6 @@ Func _JSON_AdditionalProperty($aArray)
 	$aFechaLevante[0] = "FechaLevante:"
 	$aFechaLevante[1] = '""'
 	$aFechaLevante[2] = _FechaLevante($aArray)
-
-	;Valida que el campo de cualquier obervacion adicional no esté vacío por motivos de normatividad
-	If StringLen(StringStripWS($aCodigoCIIU, 8)) = 0 Then $aCodigoCIIU = "0"
-	If StringLen(StringStripWS($aFax, 8)) = 0 Then $aFax = "0"
-	If StringLen(StringStripWS($aTipoCambio, 8)) = 0 Then $aTipoCambio = "0"
-	If StringLen(StringStripWS($aAWLBL, 8)) = 0 Then $aAWLBL = "0"
-	If StringLen(StringStripWS($aSUC, 8)) = 0 Then $aSUC = "0"
-	If StringLen(StringStripWS($aPeso, 8)) = 0 Then $aPeso = "0"
-	If StringLen(StringStripWS($aPiezas, 8)) = 0 Then $aPiezas = "0"
-	If StringLen(StringStripWS($aConceptoReferencia, 8)) = 0 Then $aConceptoReferencia = "0"
-	If StringLen(StringStripWS($aNo, 8)) = 0 Then $aNo = "0"
-	If StringLen(StringStripWS($aValorLetras, 8)) = 0 Then $aValorLetras = "0"
-	If StringLen(StringStripWS($aValorMercancia, 8)) = 0 Then $aValorMercancia = "0"
-	If StringLen(StringStripWS($aObservaciones, 8)) = 0 Then $aObservaciones = "0"
-	If StringLen(StringStripWS($aVencimiento, 8)) = 0 Then $aVencimiento = "0"
-	If StringLen(StringStripWS($aTRM, 8)) = 0 Then $aTRM = "0"
-	If StringLen(StringStripWS($aJefeCuenta, 8)) = 0 Then $aJefeCuenta = "0"
-	If StringLen(StringStripWS($aFechaLevante, 8)) = 0 Then $aFechaLevante = "0"
 
 	Local $aResultArray[16]
 	$aResultArray[0] = $aCodigoCIIU

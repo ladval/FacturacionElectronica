@@ -1,18 +1,18 @@
 {
 "CustomerInformation": {
 "IdentificationType": 31,
-"Identification": "800130426",
-"DV": "3",
-"RegistrationName": "G Y J FERRETERIAS S.A.",
+"Identification": "901326481",
+"DV": "8",
+"RegistrationName": "SIEMENS ENERGY S.A.S",
 "CountryCode": "CO",
 "CountryName": "COLOMBIA",
 "SubdivisionCode": "11",
 "SubdivisionName": ":BOGOTA",
 "CityCode": "11001",
 "CityName": ":BOGOTA",
-"AddressLine": "CARRERA 65 B No.12 -93",
-"Telephone": "2600783",
-"Email":"importaciones@gyj.com.co;facturacion-noreply@abcrepecev.com",
+"AddressLine": "AUT MEDELLIN COSTADO SUR KM 8 5",
+"Telephone": "2942400",
+"Email":"facelectronica.colombia.ar@siemens.com;facturacion-noreply@abcrepecev.com",
 "CustomerCode": "",
 "AdditionalAccountID": "1",
 "TaxLevelCodeListName": "48",
@@ -24,10 +24,10 @@
 "AdditionalCustomer": []
 },
 "InvoiceGeneralInformation": {
-"InvoiceAuthorizationNumber": "18763002723655",
-"PreinvoiceNumber": 93649,
-"InvoiceNumber": "93649",
-"DaysOff": "29",
+"InvoiceAuthorizationNumber": "18763002723711",
+"PreinvoiceNumber": 83793,
+"InvoiceNumber": "83793",
+"DaysOff": "59",
 "Currency": "COP",
 "ExchangeRate": 0.0,
 "ExchangeRateDate": "",
@@ -36,7 +36,7 @@
 "ExternalGR": true
 },
 "Delivery": {
-"AddressLine": "CARRERA 65 B No.12 -93",
+"AddressLine": "AUT MEDELLIN COSTADO SUR KM 8 5",
 "CountryCode": "",
 "CountryName": "",
 "SubdivisionCode": "",
@@ -44,18 +44,26 @@
 "CityCode": "",
 "CityName": "",
 "ContactPerson": "",
-"DeliveryDate": "2021-07-27T11:08:13",
+"DeliveryDate": "2021-08-26T12:20:50",
 "DeliveryCompany": ""
 },
 "AdditionalDocuments": {
-"OrderReference": "",
+"OrderReference": "4500009165",
 "OrderReferenceIssueDate": "",
-"DespatchDocumentReference": "",
+"DespatchDocumentReference": "301595",
 "DespatchDocumentIssueDate": "",
 "ReceiptDocumentReference": "",
 "ReceiptDocumentIssueDate": "",
-"AdditionalDocument": []
-},
+"AdditionalDocument": [
+{
+"DocumentNumber": "MEXA17225",
+ "DocumentCode": "R",
+ "DocumentType": "TN",
+ "IssueDate": ""
+ }
+ ]
+ },
+"AdditionalDocumentReceipt": [],
 "AdditionalProperty": [
 {
 "Name": "Codigo CIIU",
@@ -71,7 +79,7 @@
 },
 {
 "Name": "AWL/BL",
-"Value" : "BHUSHAN POWER       "
+"Value" : "                    "
 },
 {
 "Name": "SUC",
@@ -87,15 +95,15 @@
 },
 {
 "Name": "Concepto o Referencia:",
-"Value" : "F-033/21"
+"Value" : "MEXA17225"
 },
 {
 "Name": "No",
-"Value" : "042613721215                  "
+"Value" : "648114906213                  "
 },
 {
 "Name": "Valor en letras:",
-"Value" : "NUEVE MILLONES DOSCIENTOS TREINTA Y TRES MIL CIENTO SETENTA Y CINCO PESOS MCTE"
+"Value" : "TRES MILLONES QUINIENTOS CUARENTA Y TRES MIL QUINIENTOS OCHENTA Y OCHO PESOS MCTE"
 },
 {
 "Name": "Valor mercancia:",
@@ -103,23 +111,23 @@
 },
 {
 "Name": "Observaciones:",
-"Value" : "VALOR ANTICIPO RECIBIDO $15.000.000?EL CUAL ES CRUZADO CON LA NOTA C16 999?SALDO A FAVOR PARA ESTA FACTURA $5.766.825?NAC: 405017"
+"Value" : "OC 4500009165?DIVISION: SP&S/COMPRADOR Leidy Viviana Gutierrez?EMBARQUE 301595?NAC:407458"
 },
 {
 "Name": "Vencimiento:",
-"Value" : "2021-08-26"
+"Value" : "2021-10-25"
 },
 {
 "Name": "TRM:",
-"Value" : "MEDITERRANEAN"
+"Value" : ""
 },
 {
 "Name": "JefeCuenta:",
-"Value" : "VALDIVIESO SANCHEZ RAFAEL"
+"Value" : "HERNANDEZ ARDILA JHONATTAN"
 },
 {
 "Name": "FechaLevante:",
-"Value" : "2021-07-22"
+"Value" : "2021-08-20"
 }
 ],
 "PaymentSummary": {
@@ -129,15 +137,45 @@
 },
 "ItemInformation": [
 {
-"ItemReference": "1003",
-"Name": "S.P.I.AGUADULCE F-2239725 USO ALMACENAJE",
+"ItemReference": "1004",
+"Name": "CONTECAR 5402747 USO INSTACIONES",
 "Quatity": 1.00,
-"Price": 8729992,
+"Price": 2116675,
 "LineAllowanceTotal": 0.0, 
 "LineChargeTotal": 0.0, 
 "LineTotalTaxes": 0,
-"LineTotal": 8729992,
-"LineExtensionAmount": 8729992,
+"LineTotal": 2116675,
+"LineExtensionAmount": 2116675,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "TERCERO"
+}
+],
+"TaxesInformation": [],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+},
+{
+"ItemReference": "1004",
+"Name": "CONTECAR 5402749 ALMACENAJE",
+"Quatity": 1.00,
+"Price": 876381,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 0,
+"LineTotal": 876381,
+"LineExtensionAmount": 876381,
 "MeasureUnitCode":"94", 
 "FreeOFChargeIndicator": 0,
 "AdditionalReference":[],
@@ -160,14 +198,14 @@
 },
 {
 "ItemReference": "1030",
-"Name": "VR.4x1000 Ley 863 dic.29/2003 S$8.729.992",
+"Name": "VR.4x1000 Ley 863 dic.29/2003 S$2.993.056",
 "Quatity": 1.00,
-"Price": 34920,
+"Price": 11972,
 "LineAllowanceTotal": 0.0, 
 "LineChargeTotal": 0.0, 
 "LineTotalTaxes": 0,
-"LineTotal": 34920,
-"LineExtensionAmount": 34920,
+"LineTotal": 11972,
+"LineExtensionAmount": 11972,
 "MeasureUnitCode":"94", 
 "FreeOFChargeIndicator": 0,
 "AdditionalReference":[],
@@ -190,14 +228,14 @@
 },
 {
 "ItemReference": "2003",
-"Name": "SERV AGENCIAMIENTO INTEGRAL $954.471.123",
+"Name": "SERV AGENCIAMIENTO INTEGRALX14906",
 "Quatity": 1.00,
-"Price": 353154,
+"Price": 380739,
 "LineAllowanceTotal": 0.0, 
 "LineChargeTotal": 0.0, 
-"LineTotalTaxes": 67099,
-"LineTotal": 420253,
-"LineExtensionAmount": 353154,
+"LineTotalTaxes": 72340,
+"LineTotal": 453079,
+"LineExtensionAmount": 380739,
 "MeasureUnitCode":"94", 
 "FreeOFChargeIndicator": 0,
 "AdditionalReference":[],
@@ -207,7 +245,7 @@
 "Value": "PROPIO"
 }
 ],
-"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 353154,"TaxAmount": 67099,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 380739,"TaxAmount": 72340,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
 "AllowanceCharge": [],
 "InvoiceMandateInformation": {
 "Mandate": {
@@ -219,15 +257,15 @@
 }
 },
 {
-"ItemReference": "2004",
-"Name": "VR.GASTOS VARIOS",
+"ItemReference": "2049",
+"Name": "VR.FEE PAGOS A TERCEROS",
 "Quatity": 1.00,
-"Price": 50000,
+"Price": 71833,
 "LineAllowanceTotal": 0.0, 
 "LineChargeTotal": 0.0, 
-"LineTotalTaxes": 9500,
-"LineTotal": 59500,
-"LineExtensionAmount": 50000,
+"LineTotalTaxes": 13648,
+"LineTotal": 85481,
+"LineExtensionAmount": 71833,
 "MeasureUnitCode":"94", 
 "FreeOFChargeIndicator": 0,
 "AdditionalReference":[],
@@ -237,7 +275,7 @@
 "Value": "PROPIO"
 }
 ],
-"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 50000,"TaxAmount": 9500,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 71833,"TaxAmount": 13648,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
 "AllowanceCharge": [],
 "InvoiceMandateInformation": {
 "Mandate": {
@@ -252,43 +290,34 @@
 "InvoiceTaxTotal": [{
 "Id": "01",
 "TaxEvidenceIndicator": false,
-"TaxableAmount": 403154,
-"TaxAmount": 76599,
+"TaxableAmount": 452572,
+"TaxAmount": 85988,
 "Percent": 19,
-"BaseUnitMeasure": "",
-"PerUnitAmount": ""
-},
-{
-"Id": "05",
-"TaxEvidenceIndicator": true,
-"TaxableAmount": 403154,
-"TaxAmount": 11490,
-"Percent": 15,
 "BaseUnitMeasure": "",
 "PerUnitAmount": ""
 }
 ],
 "InvoiceAllowanceCharge" :[],
 "InvoiceTotalOwn" : {
-"LineExtensionAmount" : 403154,
-"TaxExclusiveAmount" : 403154,
-"TaxAmount" : 76599,
-"PayableAmount" : 479753
+"LineExtensionAmount" : 452572,
+"TaxExclusiveAmount" : 452572,
+"TaxAmount" : 85988,
+"PayableAmount" : 538560
 },
 "InvoiceTotalOthers" : {
-"LineExtensionAmount" : 8764912,
+"LineExtensionAmount" : 3005028,
 "TaxExclusiveAmount" : 0,
 "TaxAmount" : 0,
-"PayableAmount" : 8764912
+"PayableAmount" : 3005028
 },
 "InvoiceTotal": {
-"LineExtensionAmount": 9168066,
-"TaxExclusiveAmount": 403154,
-"TaxInclusiveAmount": 9244665,
+"LineExtensionAmount": 3457600,
+"TaxExclusiveAmount": 452572,
+"TaxInclusiveAmount": 3543588,
 "AllowanceTotalAmount": 0,
 "ChargeTotalAmount": 0,
 "PrePaidAmount": 0,
-"PayableAmount": 9244665
+"PayableAmount": 3543588
 },
 "Documents": []
 

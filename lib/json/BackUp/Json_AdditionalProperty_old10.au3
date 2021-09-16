@@ -1,4 +1,5 @@
 Func _JSON_AdditionalProperty($aArray)
+;~ If Not @Compiled Then _ArrayDisplay($aArray)
 	Local $aCodigoCIIU[3]
 	$aCodigoCIIU[0] = "Codigo CIIU"
 	$aCodigoCIIU[1] = '""'
@@ -101,7 +102,7 @@ Func _JSON_AdditionalProperty($aArray)
 	$aFechaLevante[1] = '""'
 	$aFechaLevante[2] = _FechaLevante($aArray)
 
-	;Valida que el campo de cualquier obervacion adicional no esté vacío por motivos de normatividad
+;Valida que el campo de cualquier obervacion adicional no esté vacío por motivos de normatividad
 	If StringLen(StringStripWS($aCodigoCIIU, 8)) = 0 Then $aCodigoCIIU = "0"
 	If StringLen(StringStripWS($aFax, 8)) = 0 Then $aFax = "0"
 	If StringLen(StringStripWS($aTipoCambio, 8)) = 0 Then $aTipoCambio = "0"

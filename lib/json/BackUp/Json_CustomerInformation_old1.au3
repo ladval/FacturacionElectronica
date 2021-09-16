@@ -24,7 +24,7 @@ Func _JSON_CustomerInfo($aArray)
 			Local $sDivipola_CityName = $aDivipola[3]
 			Local $sDivipola_CountryCode = $aDivipola[4]
 			Local $sDivipola_CountryName = $aDivipola[5]
-			
+		
 		Else
 
 			Local $sDivipola_CityCode = $aArray[11][$iIndex]
@@ -103,10 +103,10 @@ Func _JSON_CustomerInfo($aArray)
 	$aResultArray[8] = '"SubdivisionName": "' & $sDivipola_SubdivisioName & '",'
 
 
-	If StringLen($sDivipola_CityCode) < 5 Then
-		$aResultArray[9] = '"CityCode": "0' & $sDivipola_CityCode & '",'
+if StringLen($sDivipola_CityCode)<5 Then 
+	$aResultArray[9] = '"CityCode": "0' & $sDivipola_CityCode & '",'
 	Else
-		$aResultArray[9] = '"CityCode": "' & $sDivipola_CityCode & '",'
+	$aResultArray[9] = '"CityCode": "' & $sDivipola_CityCode & '",'
 	EndIf
 	
 	

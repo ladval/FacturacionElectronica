@@ -10,7 +10,6 @@
 
 
 Func _JSON_InvoiceGralInfo($aArray)
-;~ _ArrayDisplay($aArray, '$aArray')
 	Local $iDaysOff = $aArray[19][1]
 	If $iDaysOff < 0 Then $iDaysOff = 0
 	Local $sSelectJSON_Resolutions = "SELECT [InvoiceAuthorizationNumber],[Prefijo],[Fecha_inicio],[Fecha_fin],[NitFacturador],[NumeracionInicia],[NumeracionFin] FROM [BotAbc].[dbo].[tfact_Autorizaciones]"
@@ -36,7 +35,6 @@ Func _JSON_InvoiceGralInfo($aArray)
 			Local $iDateDiff_Inicio = Number(@YEAR & @MON & @MDAY) - Number($sFecha_inicio)
 			Local $iDateDiff_Fin = Number($sFecha_fin) - Number(@YEAR & @MON & @MDAY)
 
-;~ _ArrayDisplay($aResolutions, 'aResolutions')
 			ConsoleWrite($iDateDiff_Inicio & @CRLF)
 			ConsoleWrite($iDateDiff_Fin & @CRLF)
 

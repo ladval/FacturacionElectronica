@@ -2,7 +2,7 @@ Func _JSON_Delivery($aArray)
 	Local $aDelivery_AddressLine[5]
 	$aDelivery_AddressLine[0] = "AddressLine"
 	$aDelivery_AddressLine[1] = "NoData"
-;~ $aDelivery_AddressLine[2] = '"' & $aArray[13][1] & '"'
+	;~ $aDelivery_AddressLine[2] = '"' & $aArray[13][1] & '"'
 	$aDelivery_AddressLine[2] = "null"
 	$aDelivery_AddressLine[3] = "OPCIONAL"
 	$aDelivery_AddressLine[4] = "Dirección de despacho de la mercancía referenciada en la factura"
@@ -51,7 +51,7 @@ Func _JSON_Delivery($aArray)
 	Local $aDelivery_DeliveryDate[5]
 	$aDelivery_DeliveryDate[0] = "DeliveryDate"
 	$aDelivery_DeliveryDate[1] = "NoData"
-;~ $aDelivery_DeliveryDate[2] = '"' & @YEAR & "-" & @MON & "-" & @MDAY & "T" & @HOUR & ":" & @MIN & ":" & @SEC & '"'
+	;~ $aDelivery_DeliveryDate[2] = '"' & @YEAR & "-" & @MON & "-" & @MDAY & "T" & @HOUR & ":" & @MIN & ":" & @SEC & '"'
 	$aDelivery_DeliveryDate[2] = "null"
 	$aDelivery_DeliveryDate[3] = "OPCIONAL"
 	$aDelivery_DeliveryDate[4] = "Fecha en la que se ejecuta el despacho / entrega ('0001-01- 01T00:00:00')"
