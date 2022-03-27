@@ -102,22 +102,22 @@ Func _JSON_AdditionalProperty($aArray)
 	$aFechaLevante[2] = _FechaLevante($aArray)
 
 	;Valida que el campo de cualquier obervacion adicional no esté vacío por motivos de normatividad
-;~ If StringLen(StringStripWS($aCodigoCIIU, 8)) = 0 Then $aCodigoCIIU = "0"
-;~ If StringLen(StringStripWS($aFax, 8)) = 0 Then $aFax = "0"
-;~ If StringLen(StringStripWS($aTipoCambio, 8)) = 0 Then $aTipoCambio = "0"
-;~ If StringLen(StringStripWS($aAWLBL, 8)) = 0 Then $aAWLBL = "0"
-;~ If StringLen(StringStripWS($aSUC, 8)) = 0 Then $aSUC = "0"
-;~ If StringLen(StringStripWS($aPeso, 8)) = 0 Then $aPeso = "0"
-;~ If StringLen(StringStripWS($aPiezas, 8)) = 0 Then $aPiezas = "0"
-;~ If StringLen(StringStripWS($aConceptoReferencia, 8)) = 0 Then $aConceptoReferencia = "0"
-;~ If StringLen(StringStripWS($aNo, 8)) = 0 Then $aNo = "0"
-;~ If StringLen(StringStripWS($aValorLetras, 8)) = 0 Then $aValorLetras = "0"
-;~ If StringLen(StringStripWS($aValorMercancia, 8)) = 0 Then $aValorMercancia = "0"
-;~ If StringLen(StringStripWS($aObservaciones, 8)) = 0 Then $aObservaciones = "0"
-;~ If StringLen(StringStripWS($aVencimiento, 8)) = 0 Then $aVencimiento = "0"
-;~ If StringLen(StringStripWS($aTRM, 8)) = 0 Then $aTRM = "0"
-;~ If StringLen(StringStripWS($aJefeCuenta, 8)) = 0 Then $aJefeCuenta = "0"
-;~ If StringLen(StringStripWS($aFechaLevante, 8)) = 0 Then $aFechaLevante = "0"
+	;~ If StringLen(StringStripWS($aCodigoCIIU, 8)) = 0 Then $aCodigoCIIU = "0"
+	;~ If StringLen(StringStripWS($aFax, 8)) = 0 Then $aFax = "0"
+	;~ If StringLen(StringStripWS($aTipoCambio, 8)) = 0 Then $aTipoCambio = "0"
+	;~ If StringLen(StringStripWS($aAWLBL, 8)) = 0 Then $aAWLBL = "0"
+	;~ If StringLen(StringStripWS($aSUC, 8)) = 0 Then $aSUC = "0"
+	;~ If StringLen(StringStripWS($aPeso, 8)) = 0 Then $aPeso = "0"
+	;~ If StringLen(StringStripWS($aPiezas, 8)) = 0 Then $aPiezas = "0"
+	;~ If StringLen(StringStripWS($aConceptoReferencia, 8)) = 0 Then $aConceptoReferencia = "0"
+	;~ If StringLen(StringStripWS($aNo, 8)) = 0 Then $aNo = "0"
+	;~ If StringLen(StringStripWS($aValorLetras, 8)) = 0 Then $aValorLetras = "0"
+	;~ If StringLen(StringStripWS($aValorMercancia, 8)) = 0 Then $aValorMercancia = "0"
+	;~ If StringLen(StringStripWS($aObservaciones, 8)) = 0 Then $aObservaciones = "0"
+	;~ If StringLen(StringStripWS($aVencimiento, 8)) = 0 Then $aVencimiento = "0"
+	;~ If StringLen(StringStripWS($aTRM, 8)) = 0 Then $aTRM = "0"
+	;~ If StringLen(StringStripWS($aJefeCuenta, 8)) = 0 Then $aJefeCuenta = "0"
+	;~ If StringLen(StringStripWS($aFechaLevante, 8)) = 0 Then $aFechaLevante = "0"
 
 	Local $aResultArray[16]
 	$aResultArray[0] = $aCodigoCIIU
@@ -241,6 +241,7 @@ Func _RemoveObsSpaces($sObservaciones_Data)
 EndFunc   ;==>_RemoveObsSpaces
 
 Func _JsonConstructor($aArray)
+_ArrayDisplay($aArray,'$aArray')
 	Local $aJsonDataResponse[1]
 	$aJsonDataResponse[0] = '"AdditionalProperty": ['
 	For $i = 0 To UBound($aArray) - 1 Step +1
@@ -248,7 +249,9 @@ Func _JsonConstructor($aArray)
 		Local $sNameVar = $aData[0]
 		Local $sValueVarDefault = $aData[1]
 		Local $sValueVar = $aData[2]
-		If StringLen(StringStripWS($sValueVar, 8)) = 0 Then $sValueVar = "0"
+	 If StringLen(StringStripWS($sValueVar, 8)) = 0 Then $sValueVar = "0"
+
+
 		If $i = UBound($aArray) - 1 Then
 			If StringInStr($sValueVar, "NoData") Or StringStripWS($sValueVar, 8) = "-1" Then
 				Local $sAdditionalProperty = '{|"Name": "' & $sNameVar & '",|"Value" : ' & $sValueVarDefault & '|}'

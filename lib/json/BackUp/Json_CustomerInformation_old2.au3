@@ -87,24 +87,35 @@ Func _JSON_CustomerInfo($aArray)
 	$aResultArray[0] = '"CustomerInformation": {'
 	$aResultArray[1] = '"IdentificationType": ' & $aArray[1][$iIndex] & ','
 	$aResultArray[2] = '"Identification": "' & $aArray[2][$iIndex] & '",'
+	
+
+
 	If StringStripWS($aArray[108][$iIndex], 8) == "COLOMBIA" Then
 		$aResultArray[3] = '"DV": "' & NitCV_Calculator($aArray[2][$iIndex]) & '",'
 	Else
 		$aResultArray[3] = '"DV":"",'
 	EndIf
+
 	$aResultArray[4] = '"RegistrationName": "' & $aArray[6][$iIndex] & '",'
 	$aResultArray[5] = '"CountryCode": "' & $sCountryCode & '",'
 	$aResultArray[6] = '"CountryName": "' & $aArray[108][$iIndex] & '",'
 	$aResultArray[7] = '"SubdivisionCode": "' & $sDivipola_SubdivisionCode & '",'
 	$aResultArray[8] = '"SubdivisionName": "' & $sDivipola_SubdivisioName & '",'
+
+
+MsgBox(0,"",$sDivipola_CityCode)
+
 	If StringLen($sDivipola_CityCode) < 5 Then
 		$aResultArray[9] = '"CityCode": "0' & $sDivipola_CityCode & '",'
 	Else
 		$aResultArray[9] = '"CityCode": "' & $sDivipola_CityCode & '",'
 	EndIf
+	
+	
 	$aResultArray[10] = '"CityName": "' & $sDivipola_CityName & '",'
 	$aResultArray[11] = '"AddressLine": "' & $aArray[13][$iIndex] & '",'
 	$aResultArray[12] = '"Telephone": "' & $aArray[14][$iIndex] & '",'
+	
 	Local $sEmail_CSV = $aArray[15][$iIndex]
 	Local $aEmail_CSV = StringSplit($sEmail_CSV, "|", 3)
 	Local $sCorreo1 = StringStripWS($aEmail_CSV[0], 8)
@@ -157,6 +168,8 @@ Func _JSON_CustomerInfo($aArray)
 	For $i = 0 To UBound($aResultArray) - 1 Step +1
 		$aResultArray[$i] = StringReplace($aResultArray[$i], "NoData", "")
 	Next
+
+
 	Return $aResultArray
 EndFunc   ;==>_JSON_CustomerInfo
 

@@ -1,0 +1,214 @@
+{
+"CustomerInformation": {
+"IdentificationType": 31,
+"Identification": "900184722",
+"DV": "3",
+"RegistrationName": "ALFACER DEL CARIBE S.A.",
+"CountryCode": "CO",
+"CountryName": "COLOMBIA",
+"SubdivisionCode": "08",
+"SubdivisionName": ":ATLANTICO",
+"CityCode": "08001",
+"CityName": ":BARRANQUILLA",
+"AddressLine": "ZF LA CAYENA KM 8 VIA BARRANQUILLA-TUBARA",
+"Telephone": "3361000",
+"Email":"recepcion.electronica@alfa.com.co;facturacion-noreply@abcrepecev.com",
+"CustomerCode": "",
+"AdditionalAccountID": "1",
+"TaxLevelCodeListName": "48",
+"PostalZone": "",
+"TaxSchemeCode": "01",
+"TaxSchemeName": "IVA",
+"FiscalResponsabilities": "",
+"PartecipationPercent": "",
+"AdditionalCustomer": []
+},
+"InvoiceGeneralInformation": {
+"InvoiceAuthorizationNumber": "18763002723616",
+"PreinvoiceNumber": 103956,
+"InvoiceNumber": "103956",
+"DaysOff": "59",
+"Currency": "COP",
+"ExchangeRate": 0.0,
+"ExchangeRateDate": "",
+"SalesPerson": "",
+"Note": "",
+"ExternalGR": true
+},
+"Delivery": {
+"AddressLine": "",
+"CountryCode": "",
+"CountryName": "",
+"SubdivisionCode": "",
+"SubdivisionName": "",
+"CityCode": "",
+"CityName": "",
+"ContactPerson": "",
+"DeliveryDate": "",
+"DeliveryCompany": ""
+},
+"AdditionalDocuments": {
+"OrderReference": "",
+"OrderReferenceIssueDate": "",
+"DespatchDocumentReference": "",
+"DespatchDocumentIssueDate": "",
+"ReceiptDocumentReference": "",
+"ReceiptDocumentIssueDate": "",
+"AdditionalDocument": []
+},
+"AdditionalProperty": [
+{
+"Name": "Codigo CIIU",
+"Value" : "5229"
+},
+{
+"Name": "Fax:",
+"Value" : "4222377"
+},
+{
+"Name": "Tipo de Cambio",
+"Value" : "0"
+},
+{
+"Name": "AWL/BL",
+"Value" : "INTER SER S.P.A     "
+},
+{
+"Name": "SUC",
+"Value" : ""
+},
+{
+"Name": "Peso:",
+"Value" : ""
+},
+{
+"Name": "Piezas:",
+"Value" : "0"
+},
+{
+"Name": "Concepto o Referencia:",
+"Value" : "RP-155ZF"
+},
+{
+"Name": "No",
+"Value" : "472206618212"
+},
+{
+"Name": "Valor en letras:",
+"Value" : "DOSCIENTOS VEINTICUATRO MIL TRESCIENTOS DOCE PESOS MCTE"
+},
+{
+"Name": "Valor mercancia:",
+"Value" : ""
+},
+{
+"Name": "Observaciones:",
+"Value" : "BL:IT190858?NAC: 403659"
+},
+{
+"Name": "Vencimiento:",
+"Value" : "2021-11-15"
+},
+{
+"Name": "TRM:",
+"Value" : ""
+},
+{
+"Name": "JefeCuenta:",
+"Value" : "RIVERA VARGAS CRISTIAN ALEJANDRO"
+},
+{
+"Name": "FechaLevante:",
+"Value" : "2021-07-22"
+}
+],
+"PaymentSummary": {
+"PaymentType": 1,
+"PaymentMeans": "42",
+"PaymentNote": ""
+},
+"ItemInformation": [
+{
+"ItemReference": "2003",
+"Name": "SERV AGENCIAMIENTO INTEGRAL X DO 06618",
+"Quatity": 1.00,
+"Price": 194800,
+"LineAllowanceTotal": 0.0, 
+"LineChargeTotal": 0.0, 
+"LineTotalTaxes": 37012,
+"LineTotal": 231812,
+"LineExtensionAmount": 194800,
+"MeasureUnitCode":"94", 
+"FreeOFChargeIndicator": 0,
+"AdditionalReference":[],
+"AdditionalProperty": [
+{
+"Name": "Tipo de Ingreso",
+"Value": "PROPIO"
+}
+],
+"TaxesInformation": [{"Id": "01","TaxEvidenceIndicator": false,"TaxableAmount": 194800,"TaxAmount": 37012,"Percent": 19,"BaseUnitMeasure": "","PerUnitAmount": ""}],
+"AllowanceCharge": [],
+"InvoiceMandateInformation": {
+"Mandate": {
+"IdentificationType": "",
+"Identification": "",
+"RegistrationName":"",
+"DV": ""
+}
+}
+}
+],
+"InvoiceTaxTotal": [{
+"Id": "01",
+"TaxEvidenceIndicator": false,
+"TaxableAmount": 194800,
+"TaxAmount": 37012,
+"Percent": 19,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+},
+{
+"Id": "05",
+"TaxEvidenceIndicator": true,
+"TaxableAmount": 194800,
+"TaxAmount": 5552,
+"Percent": 15,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+},
+{
+"Id": "07",
+"TaxEvidenceIndicator": true,
+"TaxableAmount": 194800,
+"TaxAmount": 1948,
+"Percent": 1,
+"BaseUnitMeasure": "",
+"PerUnitAmount": ""
+}
+],
+"InvoiceAllowanceCharge" :[],
+"InvoiceTotalOwn" : {
+"LineExtensionAmount" : 194800,
+"TaxExclusiveAmount" : 194800,
+"TaxAmount" : 37012,
+"PayableAmount" : 231812
+},
+"InvoiceTotalOthers" : {
+"LineExtensionAmount" : 0,
+"TaxExclusiveAmount" : 0,
+"TaxAmount" : 0,
+"PayableAmount" : 0
+},
+"InvoiceTotal": {
+"LineExtensionAmount": 194800,
+"TaxExclusiveAmount": 194800,
+"TaxInclusiveAmount": 231812,
+"AllowanceTotalAmount": 0,
+"ChargeTotalAmount": 0,
+"PrePaidAmount": 0,
+"PayableAmount": 231812
+},
+"Documents": []
+
+}
